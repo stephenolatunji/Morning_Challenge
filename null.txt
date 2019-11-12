@@ -1,0 +1,10 @@
+Task
+What is the difference between null and undefined
+Null is an assignment value, it can be assigned to a variable as a representation of no value while undefined means a  variable has been decleared but no value has been assigned to it.
+Also a null is an object while an undefined is a type itself “undefined”
+Where can we use strict mode?
+Strict mode is used to write cleaner codes and avoid errors of using undefined variables or conversion of data type.
+ 
+How did “this” changed with the use strict declaration
+This behaves differently in strict mode.
+The this keyword refers to object that called the function, if the object is not specified, functions in strict mode will return undefined and functions in normal mode will return the global object. 

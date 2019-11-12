@@ -1,0 +1,31 @@
+Solution To Class Challenge
+Improvement of HTML5 Over Predecessors
+
+HTML5 contains built-in support for integrated Audios and Videos.  Earlier versions of HTML have multimedia contents integrated in web pages with third party plugins.
+
+HTML5 contains Javascript Web Worker API which enables Javascipt to run in Web browser which was not possible in previous HTML.
+
+HTML5 enables the use of Web SQL database and application cache. In previous versions, browser cache is used as temporary storage.
+
+HTML5 has JS Geolocation which can be used to identify the location of a user accessing the website.
+
+It is supported by all new browsers
+
+<!DOCTYPE html>
+<html>
+<head
+    <title>Video</title>
+</head>
+ 
+<body>
+<video src=”https://www.youtube.com/watch?v=dCZI9S_Wo9w" width="640px" height="360" controls> ></video>
+ 
+</body>
+</html>
+
+
+Result of Not Specifying Doctype in HTML
+
+Not specifying the Doctype in an HTML document will result in ill-rendering of the page in browsers. The browser will enter a Quirk Mode (Compatibility mode) and renders the page as old document type.
+
+
